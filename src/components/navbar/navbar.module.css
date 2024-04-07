@@ -1,0 +1,26 @@
+.navbar a {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar a:hover {
+    color: #C74817;
+    border-bottom: 1px solid #C74817;
+}
+
+.navbar a.active {
+    color: #C74817;
+}
+
+.navbar a.contactus {
+    font-weight: 500;
+    color: white!important;
+    border: none;
+}
+.navbar a.contactus:hover{
+    background-color: #cb9744;
+}
+.navbar a.cart{
+    border: none;
+}
